@@ -1,13 +1,14 @@
 package org.chdtu;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Test2 {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "applicationContext.xml"
-        );
-        Pet pet = context.getBean("myPet", Pet.class);
+
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(MyConfig.class);
+
+        Pet pet = context.getBean("dogBean", Pet.class);
         pet.say();
 
         context.close();
