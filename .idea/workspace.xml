@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c360a8-cb0f-415c-a467-3d6c8815e4e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/university.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/university.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Pet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Pet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Test3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/University.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/university.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/university.properties" afterDir="false" />
-    </list>
+    <list default="true" id="41c360a8-cb0f-415c-a467-3d6c8815e4e3" name="Changes" comment="Complete Lab 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,22 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Test3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/EPAM/courses-app-template&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test2.executor": "Run",
+    "Application.Test3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Lab2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/EPAM/courses-app-template",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SpringLab2" />
@@ -123,11 +99,24 @@
       <workItem from="1760530347971" duration="129000" />
       <workItem from="1760676108610" duration="47000" />
       <workItem from="1761215789403" duration="3475000" />
-      <workItem from="1761737045164" duration="396000" />
+      <workItem from="1761737045164" duration="718000" />
     </task>
+    <task id="LOCAL-00001" summary="Complete Lab 2">
+      <option name="closed" value="true" />
+      <created>1761737631002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761737631002</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Complete Lab 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Lab 2" />
   </component>
 </project>
