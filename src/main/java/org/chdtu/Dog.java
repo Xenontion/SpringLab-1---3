@@ -1,19 +1,15 @@
 package org.chdtu;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import jakarta.annotation.PostConstruct;
-import jakarta.annotation.PreDestroy;
 
 @Component("dogBean")
 public class Dog implements Pet {
 
-    @Value("${dog.name:Sharik}")
-    private String name;
+    private String name = "Барбос";
 
     @Override
     public void say() {
-        System.out.println("Woof-woof!");
+        System.out.println("Собака каже: Гав-гав!");
     }
 
     @Override
@@ -21,12 +17,10 @@ public class Dog implements Pet {
         return name;
     }
 
-    @PostConstruct
     public void init() {
         System.out.println("Class Dog: init method");
     }
 
-    @PreDestroy
     public void destroy() {
         System.out.println("Class Dog: destroy method");
     }

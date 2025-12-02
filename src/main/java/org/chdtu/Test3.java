@@ -10,15 +10,12 @@ public class Test3 {
 
         University uni = context.getBean("universityBean", University.class);
 
-        Person person = uni.getPerson();
-
         System.out.println("\n=== OUTPUT ===");
         System.out.println("University: " + uni.getName());
+        System.out.println("Person: " + uni.getPerson().getFullName());
+        System.out.println("Pet: " + uni.getPerson().getPet().getName());
 
-        // Виводимо повне ім'я: ім'я + прізвище
-        System.out.println("Person: " + person.getName() + " " + person.getSurname());
-
-        System.out.println("Pet: " + person.getPet().getName());
+        uni.getPerson().callPet();
 
         context.close();
     }
