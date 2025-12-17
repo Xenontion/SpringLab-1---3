@@ -4,22 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41c360a8-cb0f-415c-a467-3d6c8815e4e3" name="Changes" comment="Complete Lab 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/aspects/LoggingAspect.java" afterDir="false" />
+    <list default="true" id="41c360a8-cb0f-415c-a467-3d6c8815e4e3" name="Changes" comment="Complete Lab 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/SpringCourseApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/controllers/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/controllers/PetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/controllers/UniversityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/dtos/CourseRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/dtos/CourseResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/dtos/PersonRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/dtos/PersonResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/dtos/PetDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/dtos/UniversityRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/dtos/UniversityResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/entities/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/mappers/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/mappers/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/mappers/PetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/mappers/UniversityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/repositories/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/repositories/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/repositories/PetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/repositories/UniversityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/services/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/services/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/services/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/services/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/services/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/services/PetServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/services/UniversityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/services/UniversityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/MyConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/MyConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/Test3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/University.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/University.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/MyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/entities/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/entities/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chdtu/aspects/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chdtu/aspects/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/MyConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/University.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chdtu/aspects/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chdtu/aspects/LoggingAspect.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +74,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lab2" />
+        <entry key="$PROJECT_DIR$" value="Lab3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +91,10 @@
     &quot;accountId&quot;: &quot;b53051e5-734c-4e00-aa46-a5f94935665f&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -62,23 +104,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Lab3&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/EPAM/courses-app-template&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Test2.executor": "Run",
+    "Application.Test3.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.SpringCourseApplication.executor": "Run",
+    "git-widget-placeholder": "Lab4",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Chdtu/4 Course/Testing/LAB9",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SpringLab2" />
@@ -90,6 +137,13 @@
       <module name="SpringLab2" />
       <option name="filePath" />
       <method v="2" />
+    </configuration>
+    <configuration name="SpringCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring_course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.chdtu.SpringCourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SharedIndexes">
@@ -119,6 +173,9 @@
       <workItem from="1763620571502" duration="1619000" />
       <workItem from="1764156368049" duration="2909000" />
       <workItem from="1764564643904" duration="199000" />
+      <workItem from="1764700939315" duration="7294000" />
+      <workItem from="1765020292513" duration="310000" />
+      <workItem from="1765354078815" duration="11500000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Lab 2">
       <option name="closed" value="true" />
@@ -128,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761737631002</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Complete Lab 3">
+      <option name="closed" value="true" />
+      <created>1764701065333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764701065333</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +201,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complete Lab 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Lab 2" />
+    <MESSAGE value="Complete Lab 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete Lab 3" />
   </component>
 </project>
