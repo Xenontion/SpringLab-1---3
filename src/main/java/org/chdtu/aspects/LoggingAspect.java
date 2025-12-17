@@ -7,33 +7,30 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class LoggingAspect {
 
-    // ===== POINTCUTS =====
-    @Pointcut("execution(* org.chdtu.Person.get*(..))")
-    public void getterMethods() {}
+    // Pointcut на всі методи збереження (save) у будь-якому сервісі
+    @Pointcut("execution(* org.chdtu.services.*.save*(..))")
+    public void saveMethods() {}
 
-    @Pointcut("execution(* org.chdtu.Person.callPet(..))")
-    public void callPetMethod() {}
+    // Pointcut на будь-який метод у UniversityService
+    @Pointcut("execution(* org.chdtu.services.UniversityService.*(..))")
+    public void universityServiceMethods() {}
 
-    @Pointcut("execution(* org.chdtu.University.*(..))")
-    public void universityAllMethods() {}
+    // Pointcut на видалення (delete)
+    @Pointcut("execution(* org.chdtu.services.*.delete*(..))")
+    public void deleteMethods() {}
 
-    // ===== ADVICES =====
-
-    // 1) Перед усіма геттерами Person
-    @Before("getterMethods()")
-    public void beforeGetterAdvice() {
-        System.out.println("[AOP Before] Викликається геттер у класі Person");
+    @Before("saveMethods()")
+    public void beforeSaveAdvice() {
+        System.out.println("[AOP] Спроба збереження нового об'єкта через сервіс...");
     }
 
-    // 2) Перед будь-яким методом University
-    @Before("universityAllMethods()")
+    @Before("universityServiceMethods()")
     public void beforeUniversityAdvice() {
-        System.out.println("[AOP Univ] Викликано метод університету");
+        System.out.println("[AOP Univ] Робота з даними університету");
     }
 
-    // 3) Після завершення callPet()
-    @After("callPetMethod()")
-    public void afterCallPetAdvice() {
-        System.out.println("[AOP After] Метод callPet() завершився");
+    @After("deleteMethods()")
+    public void afterDeleteAdvice() {
+        System.out.println("[AOP After] Операція видалення успішно завершена");
     }
 }
