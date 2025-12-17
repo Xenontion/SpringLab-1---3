@@ -1,13 +1,33 @@
 package org.chdtu;
 
-public class Dog implements Pet{
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 
-    public Dog() {
-        System.out.println("Dog bean is created");
-    }
+@Component("dogBean")
+public class Dog implements Pet {
+
+    @Value("${dog.name:Sharik}")
+    private String name;
 
     @Override
     public void say() {
-        System.out.println("woof");
+        System.out.println("Woof-woof!");
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @PostConstruct
+    public void init() {
+        System.out.println("Class Dog: init method");
+    }
+
+    @PreDestroy
+    public void destroy() {
+        System.out.println("Class Dog: destroy method");
     }
 }

@@ -1,29 +1,35 @@
 package org.chdtu;
 
-public class Cat implements Pet {
-    private String name; // 👈 додали поле
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 
-    public Cat() {
-        System.out.println("Cat bean is created");
-    }
+@Component("catBean")
+@Primary
+public class Cat implements Pet {
+
+    @Value("${cat.name:Barsik}")
+    private String name;
 
     @Override
     public void say() {
-        System.out.println("meow");
+        System.out.println("Meow-meow!");
     }
 
-    // --- getter/setter для name ---
-    public void setName(String name) {
-        System.out.println("Class Cat: set name");
-        this.name = name;
-    }
-
+    @Override
     public String getName() {
         return name;
     }
 
-    @Override
-    public String toString() {
-        return "Cat: " + name;
+    @PostConstruct
+    public void init() {
+        System.out.println("Class Cat: init method");
+    }
+
+    @PreDestroy
+    public void destroy() {
+        System.out.println("Class Cat: destroy method");
     }
 }
